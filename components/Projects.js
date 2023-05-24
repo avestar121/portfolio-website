@@ -18,7 +18,7 @@ const Projects = () => {
           <div className='projectInfo'>
             <p className='projectName'>COINWATCHER</p>
             <p className='projectBrief'>A platform where you can see real prices, price charts and all other info about top 10 cryptocurrencies sorted by market capitalization. </p>
-            <p className='projectTech'>This project fetches data from different api's and uses tailwindCss for styling.</p>
+            <p className='projectTech'>This project fetches data from different api&apos;s and uses tailwindCss for styling.</p>
             <div className='projectbuttons'>
             <a className='projectsbtn projectsbtn--bg' href='https://github.com/avestar121/coinwatcher' target='._blank'>Source code</a>
             <a className='projectsbtn projectsbtn--bg' href="https://coinwatcher.netlify.app/" target='._blank'>Go to site</a>

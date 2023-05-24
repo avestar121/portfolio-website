@@ -10,7 +10,7 @@ const LandingPage = () => {
   }, []);
   return (
     <div className='landingPage' id="home">
-        <h1 className={`landingHeader ${showText ? 'show' : ''}`}>HI, I'M ALEX, A FULL-STACK DEVELOPER</h1>
+        <h1 className={`landingHeader ${showText ? 'show' : ''}`}>HI, I&apos;M ALEX, A FULL-STACK DEVELOPER</h1>
         <a className='btn btn--bg' href='#skills'><ChevronDown /></a>
   </div>
   )

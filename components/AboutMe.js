@@ -11,14 +11,14 @@ const AboutMe = () => {
       <div className='getToKnow'>
         <h3>Get to know me!</h3>
         <br/>
-        <p>Hello there! I'm Aleksey, but you can call me Alex, I am a passionate and dedicated full-stack developer.
+        <p>Hello there! I&apos;m Aleksey, but you can call me Alex, I am a passionate and dedicated full-stack developer.
 
 
-When I'm not coding, you can find me playing videogames or at the gym. Sport inspires me to think creatively and approach problem-solving from different angles.
+When I&apos;m not coding, you can find me playing videogames or at the gym. Sport inspires me to think creatively and approach problem-solving from different angles.
 
 If you have a project in mind or would like to collaborate, feel free to <span><a href="#contact" style={{color: "#5867C9"}}>get in touch.</a></span></p>
       <br/>
-      <p>Let's work together to bring your ideas to life!</p>
+      <p>Let&apos;s work together to bring your ideas to life!</p>
       </div>
   </div>
   )
