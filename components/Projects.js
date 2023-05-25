@@ -42,9 +42,9 @@ const Projects = () => {
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
             <p className='projectName'>RAPPANTSSHOP</p>
-            <p className='projectBrief'>An online clothing store with working payments </p>
+            <p className='projectBrief'>An online clothing store.</p>
             <p className='projectTech'>The store was built using sanity db for database and Stripe as a payment gateway.</p>
-            <p className='projectTech' style={{color: 'gray'}}>Try using 4242 4242 4242 4242 as card and any future data with any cvv for chekout</p>
+            <p className='projectTech' style={{color: 'gray'}}>Test checkout by using 4242 4242 4242 4242 as a card number,any future date,any three-digit CVC.</p>
             <div className='projectbuttons'>
             <a className='projectsbtn projectsbtn--bg' href='https://github.com/avestar121/webshopforrappants' target='._blank'>Source code</a>
             <a className='projectsbtn projectsbtn--bg' href="https://webshopforrappants.vercel.app/" target='._blank' style={{marginRight: '0px'}}>Go to site</a>
