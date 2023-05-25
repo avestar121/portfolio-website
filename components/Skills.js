@@ -8,6 +8,7 @@ const Skills = () => {
       <div className='underline'></div>
       <p className='skillstop3'>My skills</p>
     </div>
+    <div className='skilllistContainer'>
     <div className="skillList"> 
       <div className="skillBox">
         <img src="https://cdn-icons-png.flaticon.com/512/2721/2721609.png" alt="Frontend" className="skillImage"/>
@@ -51,6 +52,7 @@ const Skills = () => {
           <p className='skillDescription'>Heroku</p>
         </div>
       </div>
+    </div>
     </div>
   </div>
   )

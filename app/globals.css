@@ -390,7 +390,6 @@ li{
   }
 
   .skillsContainer {
-    overflow-x: auto;
     padding: 10px;
   }
 
@@ -497,6 +496,11 @@ li{
   flex-direction: column;
   align-items: center;
   overflow-x: auto;
+}
+
+.skilllistContainer{
+  height: 450px;
+  overflow-x: scroll;
 }
 
 .skillBox {
