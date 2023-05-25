@@ -1,4 +1,5 @@
 import React from 'react'
+import ChevronDown from '../assets/ChevronDown'
 
 const Skills = () => {
   return (
@@ -52,6 +53,7 @@ const Skills = () => {
           <p className='skillDescription'>Heroku</p>
         </div>
       </div>
+      <a className='btn btn--bg buttondisplay' href='#aboutme'><ChevronDown /></a>
     </div>
     </div>
   </div>
