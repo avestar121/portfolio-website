@@ -1,34 +1,43 @@
-"use client"
 import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const [height, setHeight] = useState(0);
-  const [isFirst, setisFirst] = useState(true);
-  const [isSecond, setisSecond] = useState(false);
-  const [isThird, setisThird] = useState(false);
-  const [isFourth, setisFourth] = useState(false);
-  const [isFifth, setisFifth] = useState(false);
+  const [sections, setSections] = useState([
+    { id: 'home', label: 'Home', isActive: false },
+    { id: 'skills', label: 'Skills', isActive: false },
+    { id: 'aboutme', label: 'About Me', isActive: false },
+    { id: 'projects', label: 'Projects', isActive: false },
+    { id: 'contact', label: 'Contact', isActive: false },
+  ]);
 
   useEffect(() => {
-    const firstScrollHeight = Math.floor(document.body.scrollHeight / 5 );
-    setHeight(firstScrollHeight);
-
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset;
-      setisFirst(scrollPosition < firstScrollHeight - 150);
-      setisSecond(scrollPosition >= firstScrollHeight - 150 && scrollPosition < -350 + firstScrollHeight * 2);
-      setisThird(scrollPosition >= -350 + firstScrollHeight * 2 && scrollPosition < -550 + firstScrollHeight * 3 );
-      setisFourth(scrollPosition >= -550 + firstScrollHeight * 3 && scrollPosition < -150 + firstScrollHeight * 4);
-      setisFifth(scrollPosition >= -150 + firstScrollHeight * 4);
+    
+      setSections((prevSections) =>
+        prevSections.map((section, index) => {
+          const sectionStart = height * index;
+          const sectionEnd = height * (index + 1);
+    
+          return {
+            ...section,
+            isActive: scrollPosition >= sectionStart - 200 && scrollPosition < sectionEnd - 200,
+          };
+        })
+      );
     };
+    
+
+    const firstScrollHeight = Math.floor(document.body.scrollHeight / sections.length);
+    setHeight(firstScrollHeight);
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [height, sections.length]);
 
   const toggleHamburger = () => {
     setIsActive(!isActive);
@@ -38,21 +47,16 @@ const Navbar = () => {
     <div className={`navbarWrapper`}>
       <div className='title'>Alex</div>
       <ul className={`navigation ${isActive ? 'active' : ''}`}>
-        <li className={`navitem `}>
-          <a href="#home" className={`navlink ${isFirst ? 'onpage' : ''}`}>Home</a>
-        </li>
-        <li className='navitem'>
-          <a href="#skills" className={`navlink ${isSecond ? 'onpage' : ''}`}>Skills</a>
-        </li>
-        <li className='navitem'>
-          <a href="#aboutme" className={`navlink ${isThird ? 'onpage' : ''}`}>About Me</a>
-        </li>
-        <li className='navitem'>
-          <a href="#projects" className={`navlink ${isFourth ? 'onpage' : ''}`}>Projects</a>
-        </li>
-        <li className='navitem'>
-          <a href="#contact" className={`navlink ${isFifth ? 'onpage' : ''}`}>Contact</a>
-        </li>
+        {sections.map((section) => (
+          <li className={`navitem`} key={section.id}>
+            <a
+              href={`#${section.id}`}
+              className={`navlink ${section.isActive ? 'onpage' : ''}`}
+            >
+              {section.label}
+            </a>
+          </li>
+        ))}
       </ul>
       <div className={`hamburger ${isActive ? 'active' : ''}`} onClick={toggleHamburger}>
         <span className='bar'></span>
