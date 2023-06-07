@@ -126,8 +126,9 @@ html {
 }
 
 .skillDescription {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 5px;
 }
 
 
@@ -250,7 +251,7 @@ html {
 }
 
 .projects {
-  min-height: 1058px;
+  min-height: 40rem;
   padding-top: 50px; 
   background-color: white;
   display: flex;
@@ -350,8 +351,8 @@ html {
 }
 
 .getToKnow{
-  width:50%;
-  margin-left: 50px;
+  width:90%;
+  text-align: center;
 }
 
 li{
@@ -373,10 +374,81 @@ li{
   background-color: white;
 }
 
+@media(min-width: 1800px){
+  .aboutHead{
+    font-size: 3rem;
+  }
+
+  .smallTitle{
+    font-size: 3rem;
+  }
+
+  .skillstop3{
+    font-size: 1.5rem;
+  }
+
+  .aboutMeIdeas{
+    font-size: 25px;
+  }
+
+  .navbarWrapper{
+    height: 80px;
+  }
+
+  .navlink{
+    font-size: 1rem;
+  }
+
+  .projectName{
+    font-size: 1.5rem;
+  }
+
+  .projectBrief{
+    font-size: 18px;
+  }
+
+  .skillTitle{
+    font-size: 30px;
+  }
+
+  .skillDescription{
+    font-size: 20px;
+  }
+
+  .projectstop3{
+    font-size: 1.5rem;
+  }
+
+  .skillBox{
+    height: 600px;
+  }
+
+  .skillImage{
+    height: 150px;
+    width: 150px;
+  }
+
+  .aboutMeGetToKnow{
+    font-size: 1.5rem;
+  }
+
+  .aboutmesmall{
+    font-size: 2rem;
+  }
+
+  .aboumePar{
+    font-size: 30px;
+  }
+}
 
 @media(max-width:767px){
   .landingPage{
     font-size: 20px;
+  }
+
+  .aboutmesmall{
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
   }
 
   .btn--bg {

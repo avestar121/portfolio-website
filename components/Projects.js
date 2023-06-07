@@ -37,7 +37,7 @@ const Projects = () => {
         </div>
         <div className='projectBox'>
           <div className='projectImage'>
-            <a href="https://webshopforrappants.vercel.app/" target='._blank'>
+            <a href="https://rappantsshop.vercel.app/" target='._blank'>
               <video src="/rappantsvideo.mp4" alt="rappants" className="projectImage" autoPlay muted controls /></a>
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
@@ -47,22 +47,22 @@ const Projects = () => {
             <p className='projectTech' style={{color: 'gray'}}>Test checkout by using 4242 4242 4242 4242 as a card number,any future date,any three-digit CVC.</p>
             <div className='projectbuttons'>
             <a className='projectsbtn projectsbtn--bg' href='https://github.com/avestar121/webshopforrappants' target='._blank'>Source code</a>
-            <a className='projectsbtn projectsbtn--bg' href="https://webshopforrappants.vercel.app/" target='._blank' style={{marginRight: '0px'}}>Go to site</a>
+            <a className='projectsbtn projectsbtn--bg' href="https://rappantsshop.vercel.app/" target='._blank' style={{marginRight: '0px'}}>Go to site</a>
             </div>
           </div>
         </div>
         <div className='projectBox'>
           <div className='projectImage'>
-            <a href="https://webshopforrappants.vercel.app/" target='._blank'>
-              <img src="/rappants.png" alt="rappants" className="projectImage"/></a>
+            <a href="https://boookingapp.vercel.app/" target='._blank'>
+            <video src="/airbnbvideo.mp4" alt="airbnb" className="projectImage" autoPlay muted controls /></a>
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
-            <p className='projectName'>RAPPANTSSHOP</p>
-            <p className='projectBrief'>An online clothing store with working payments </p>
-            <p className='projectTech'>The store was built using sanity db for database and Stripe as a payment gateway.</p>
+            <p className='projectName'>AIRBNB CLONE</p>
+            <p className='projectBrief'>Clone of a famous booking site</p>
+            <p className='projectTech'>This project was built using mongodb for database and tailwindCss for styling</p>
             <div className='projectbuttons'>
-            <a className='projectsbtn projectsbtn--bg' href='https://github.com/avestar121/webshopforrappants' target='._blank'>Source code</a>
-            <a className='projectsbtn projectsbtn--bg' href="https://webshopforrappants.vercel.app/" target='._blank' style={{marginRight: '0px'}}>Go to site</a>
+            <a className='projectsbtn projectsbtn--bg' href='https://github.com/avestar121/boookingapp' target='._blank'>Source code</a>
+            <a className='projectsbtn projectsbtn--bg' href="https://boookingapp.vercel.app/" target='._blank' style={{marginRight: '0px'}}>Go to site</a>
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@ const Skills = () => {
           <p className='skillDescription'>Netlify</p>
         </div>
         <div className='skills1by1'>
-          <p className='skillDescription'>Vertex</p>
+          <p className='skillDescription'>Vercel</p>
           <p className='skillDescription'>Webpack</p>
           <p className='skillDescription'>Heroku</p>
         </div>
