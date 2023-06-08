@@ -38,7 +38,7 @@ const Projects = () => {
         <div className='projectBox'>
           <div className='projectImage'>
             <a href="https://rappantsshop.vercel.app/" target='._blank'>
-              <video src="/rappantsveo.mp4" alt="rappants" className="projectImage" autoPlay muted controls /></a>
+              <video src="/rappantsvideo.mp4" alt="rappants" className="projectImage" autoPlay muted controls /></a>
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
             <p className='projectName'>RAPPANTSSHOP</p>
@@ -54,7 +54,7 @@ const Projects = () => {
         <div className='projectBox'>
           <div className='projectImage'>
             <a href="https://boookingapp.vercel.app/" target='._blank'>
-            <video src="/airbnbvio.mp4" alt="airbnb" className="projectImage" autoPlay muted controls /></a>
+            <video src="/airbnbvideo.mp4" alt="airbnb" className="projectImage" autoPlay muted controls /></a>
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
             <p className='projectName'>AIRBNB CLONE</p>
