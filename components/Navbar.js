@@ -22,7 +22,7 @@ const Navbar = () => {
     
           return {
             ...section,
-            isActive: scrollPosition >= sectionStart - 200 && scrollPosition < sectionEnd - 200,
+            isActive: scrollPosition >= sectionStart - 300 && scrollPosition < sectionEnd - 300,
           };
         })
       );

@@ -7,7 +7,7 @@ const Skills = () => {
     <div className='projectsdescr'>
       <p className='smallTitle'>MY SKILLS</p>
       <div className='underline'></div>
-      <p className='skillstop3'>My skills</p>
+      <p className='skillstop3'>List of my skills</p>
     </div>
     <div className='skilllistContainer'>
     <div className="skillList"> 
@@ -22,21 +22,26 @@ const Skills = () => {
         <div className='skills1by1'>
           <p className='skillDescription'>React</p>
           <p className='skillDescription'>Redux</p>
-          <p className='skillDescription'>Taiwind</p>
+          <p className='skillDescription'>Next.js</p>
+        </div>
+        <div className='skills1by1'>
+          <p className='skillDescription'>Tailwind</p>
+          <p className='skillDescription'>Responsive design</p>
+          <p className='skillDescription'>Typescript</p>
         </div>
       </div>
       <div className="skillBox">
         <img src="https://static.thenounproject.com/png/3905512-200.png" alt="Backend" className="skillImage"/>
         <h3 className="skillTitle">Backend</h3>
         <div className='skills1by1'>
-          <p className='skillDescription'>Node.js</p>
           <p className='skillDescription'>Express.js</p>
+          <p className='skillDescription'>SQL</p>
           <p className='skillDescription'>PostgreSQL</p>
         </div>
         <div className='skills1by1'>
           <p className='skillDescription'>Sanity</p>
           <p className='skillDescription'>RESTful API</p>
-          <p className='skillDescription'>Mongo.db</p>
+          <p className='skillDescription'>MongoDB</p>
         </div>
       </div>
       <div className="skillBox">

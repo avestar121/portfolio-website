@@ -38,7 +38,7 @@ html {
 .skillsContainer {
   background-color: white;
   height: 100vh;
-  min-height: 40rem;
+  min-height: 45rem;
   padding: 60px;
 }
 
@@ -103,7 +103,7 @@ html {
 
 .skillBox {
   width: 150px;
-  height: 400px;
+  height: 470px;
   padding: 20px;
   text-align: center;
   background-color: #F9F9F9;
@@ -374,6 +374,10 @@ li{
   background-color: white;
 }
 
+.aboumePar{
+  padding-bottom: 15px;
+}
+
 @media(min-width: 1800px){
   .aboutHead{
     font-size: 3rem;
@@ -447,8 +451,12 @@ li{
   }
 
   .aboutmesmall{
-    margin-top: 0.25rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .aboumePar{
+    padding-bottom: 0;
   }
 
   .btn--bg {
@@ -491,7 +499,7 @@ li{
   
 
   .aboutMe {
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .skillDescription {
@@ -528,7 +536,6 @@ li{
 
   .getToKnow{
     width:90%;
-    margin-left: 3px;
     font-size: 13px;
   }
 
