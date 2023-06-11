@@ -9,11 +9,9 @@ const AboutMe = () => {
       <p className='aboutmesmall'>Here you will find more information about me</p>
       <div className='getToKnow'>
         <h3 className='aboutmesmall'>Get to know me!</h3>
-        <p className='aboumePar'>Hi, i&apos;m Aleksey, I am passionate and dedicated full-stack developer. When I&apos;m not coding, you can find me working out at the gym, reading books, or playing video games. Sport inspires me to think creatively and approach problem-solving from different angles.</p>
-  
-        <p className='aboumePar'>
-        For me initially, coding was simply a means to satisfy my curiosity and challenge myself intellectually, but as I delved deeper into the coding, I discovered its
-endless possibilities for creativity.Now coding has become more than just a hobby or a means of personal exploration, it has become my chosen career path.
+        <p className='aboumePar'>Hi, I&apos;m Aleksey, I am a passionate and dedicated full-stack developer based in Warsaw.
+I am communicative, responsible, and not afraid to take on tasks of any complexity. When I&apos;m not coding, you can find me working out at the gym, reading books, or playing video games. Sport inspires me to think creatively and approach problem-solving from different angles.
+I&apos;ve been fascinated by computers ever since my childhood. I&apos;ve always had a curiosity for new technologies and enjoyed coding for fun. When I had to move to Warsaw due to the war, I made the decision that programming would be my future career. From that moment onward, I&apos;ve dedicated myself to coding every single day, constantly learning and working on small projects to break into the industry.
         </p>
   
         <p className='aboumePar'>

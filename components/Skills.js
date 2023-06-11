@@ -22,12 +22,15 @@ const Skills = () => {
         <div className='skills1by1'>
           <p className='skillDescription'>React</p>
           <p className='skillDescription'>Redux</p>
-          <p className='skillDescription'>Next.js</p>
+          <p className='skillDescription'>Angular</p>
         </div>
         <div className='skills1by1'>
-          <p className='skillDescription'>Tailwind</p>
-          <p className='skillDescription'>Responsive design</p>
           <p className='skillDescription'>Typescript</p>
+          <p className='skillDescription'>Next.js</p>
+          <p className='skillDescription'>Tailwind</p>
+        </div>
+        <div className='skills1by1'>
+          <p className='skillDescription'>Responsive design</p>
         </div>
       </div>
       <div className="skillBox">
