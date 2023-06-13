@@ -43,8 +43,11 @@ const Skills = () => {
         </div>
         <div className='skills1by1'>
           <p className='skillDescription'>Sanity</p>
-          <p className='skillDescription'>RESTful API</p>
+          <p className='skillDescription'>PHP</p>
           <p className='skillDescription'>MongoDB</p>
+        </div>
+        <div className='skills1by1'>
+          <p className='skillDescription'>RESTful API</p>
         </div>
       </div>
       <div className="skillBox">
