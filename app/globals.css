@@ -35,6 +35,18 @@ html {
   font-size: 30px;
 }
 
+.socialsImage {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin: 0 auto 10px;
+}
+
+.socialLinks{
+  display: flex;
+  gap: 20px;
+}
+
 .skillsContainer {
   background-color: white;
   height: 100vh;

@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <div className={`navbarWrapper`}>
-      <div className='title'>Alex</div>
+      <div className='title'>Aleksey</div>
       <ul className={`navigation ${isActive ? 'active' : ''}`}>
         {sections.map((section) => (
           <li className={`navitem`} key={section.id}>
