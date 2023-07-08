@@ -14,7 +14,7 @@ const LandingPage = () => {
     <div>
       <AnimatedBackground />
       <div className={`landingPage ${showText ? 'show' : ''}`} id="home">
-        <h1 className="landingHeader">HI, I'M ALEKSEY, A FULL-STACK DEVELOPER</h1>
+        <h1 className="landingHeader">HI, I&apos;M ALEKSEY, A FULL-STACK DEVELOPER</h1>
         <div className="socialLinks">
           <a href="https://github.com/avestar121"><img src="/github.png" alt="github" className="socialsImage"/></a>
           <a href="mailto:avestar121@gmail.com"><img src="/envelope.png" alt="mail" className="socialsImage"/></a>
