@@ -1,7 +1,6 @@
 'use client'
 import Navbar from '../components/Navbar'
 import LandingPage from '../components/LandingPage'
-import AboutMe from '../components/AboutMe'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Projects from '../components/Projects'
@@ -17,7 +16,6 @@ export default function Home() {
         <Navbar/>
         <LandingPage/>
         <Skills/>
-        <AboutMe/>
         <Projects/>
         <Contact/>
         <ToastContainer />

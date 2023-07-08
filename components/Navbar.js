@@ -6,7 +6,6 @@ const Navbar = () => {
   const [sections, setSections] = useState([
     { id: 'home', label: 'Home', isActive: false },
     { id: 'skills', label: 'Skills', isActive: false },
-    { id: 'aboutme', label: 'About Me', isActive: false },
     { id: 'projects', label: 'Projects', isActive: false },
     { id: 'contact', label: 'Contact', isActive: false },
   ]);

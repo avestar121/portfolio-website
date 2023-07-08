@@ -22,8 +22,7 @@ const Projects = () => {
       </div>
         <div className='projectBox'>
           <div className='projectImage'>
-            <a href="https://coinwatcher.netlify.app/" target='._blank'>
-              <video src="/coinwatchervideo.mp4" alt="coinwatcher" className="projectImage"  autoPlay muted controls /></a>
+              <video src="/coinwatchervideo.mp4" alt="coinwatcher" className="projectImage"  autoPlay muted controls />
           </div>
           <div className='projectInfo'>
             <p className='projectName'>COINWATCHER</p>
@@ -37,8 +36,7 @@ const Projects = () => {
         </div>
         <div className='projectBox'>
           <div className='projectImage'>
-            <a href="https://rappantsshop.vercel.app/" target='._blank'>
-              <video src="/rappantsvideo.mp4" alt="rappants" className="projectImage" autoPlay muted controls /></a>
+              <video src="/rappantsvideo.mp4" alt="rappants" className="projectImage" autoPlay muted controls />
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
             <p className='projectName'>RAPPANTSSHOP</p>
@@ -53,8 +51,7 @@ const Projects = () => {
         </div>
         <div className='projectBox'>
           <div className='projectImage'>
-            <a href="https://boookingapp.vercel.app/" target='._blank'>
-            <video src="/airbnbvideo.mp4" alt="airbnb" className="projectImage" autoPlay muted controls /></a>
+            <video src="/airbnbvideo.mp4" alt="airbnb" className="projectImage" autoPlay muted controls />
           </div>
           <div className='projectInfo' style={{marginLeft: "10px"}}>
             <p className='projectName'>AIRBNB CLONE</p>

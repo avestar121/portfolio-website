@@ -21,7 +21,8 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: 
+#0d151c;
   z-index: 10;
 }
 
@@ -40,25 +41,50 @@ html {
   height: 30px;
   object-fit: cover;
   margin: 0 auto 10px;
+  transition: transform .3s;
+  position: relative;
 }
+
+.socialsImage:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  background-color: #facf0f;
+}
+
 
 .socialLinks{
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 
 .skillsContainer {
   background-color: white;
   height: 100vh;
-  min-height: 45rem;
+  min-height: 43rem;
   padding: 60px;
 }
 
-.skillList {
+.skillsList{
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  gap:10px;
 }
+
+.skillsTitle{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.skillBox{
+  padding: 5px;
+  color: white;
+  background-color: #0d151c;
+  font-weight: bold;
+}
+
 
 .partTitle{
   display: flex;
@@ -94,7 +120,6 @@ html {
   margin-top: 10px;
   width: 95%;
   padding: 10px;
-  background-color: #F9F9F9;
   border-radius: 15px;
 }
 
@@ -113,36 +138,6 @@ html {
 }
 
 
-.skillBox {
-  width: 150px;
-  height: 485px;
-  padding: 20px;
-  text-align: center;
-  background-color: #F9F9F9;
-  border-radius: 15px;
-  margin: 30px 10px;
-  flex-grow: 1000;
-}
-
-.skillImage {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  margin: 0 auto 10px;
-}
-
-.skillTitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.skillDescription {
-  font-size: 17px;
-  font-weight: 600;
-  padding-bottom: 5px;
-}
-
 
 .navigation {
   width: 400px;
@@ -153,6 +148,7 @@ html {
 .navlink {
   text-decoration: none;
   color: white;
+  font-weight: bold;
   transition: color 0.5s ease, opacity 0.3s ease;
 }
 
@@ -178,7 +174,9 @@ html {
   background-color: #F4F4F4;
 }
 
-
+.aboutMeIdeas{
+  font-size: 1.2rem;
+}
 
 .chakra-form__label{
   color: white;
@@ -208,11 +206,6 @@ html {
   margin-bottom: 0.5rem;
 }
 
-.skillstop3{
-  text-align: center;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
-}
 
 .aboutmesmall{
   text-align: center;
@@ -278,13 +271,6 @@ html {
   color: #111;
 }
 
-.projectBrief{
-  
-}
-
-.projectTech{
-
-}
 
 .btn {
   background: #facf0f;
@@ -388,6 +374,7 @@ li{
 
 .aboumePar{
   padding-bottom: 15px;
+  font-size: 1.2rem;
 }
 
 @media(min-width: 1800px){
@@ -397,10 +384,6 @@ li{
 
   .smallTitle{
     font-size: 3rem;
-  }
-
-  .skillstop3{
-    font-size: 1.5rem;
   }
 
   .aboutMeIdeas{
@@ -423,25 +406,8 @@ li{
     font-size: 18px;
   }
 
-  .skillTitle{
-    font-size: 30px;
-  }
-
-  .skillDescription{
-    font-size: 20px;
-  }
-
   .projectstop3{
     font-size: 1.5rem;
-  }
-
-  .skillBox{
-    height: 600px;
-  }
-
-  .skillImage{
-    height: 150px;
-    width: 150px;
   }
 
   .aboutMeGetToKnow{
@@ -453,7 +419,7 @@ li{
   }
 
   .aboumePar{
-    font-size: 30px;
+    font-size: 15px;
   }
 }
 
@@ -468,6 +434,7 @@ li{
   }
 
   .aboumePar{
+    font-size: 13.5px;
     padding-bottom: 0;
   }
 
@@ -476,9 +443,8 @@ li{
     padding: 0.5rem 3.7rem;
   }
 
-  .skillstop3{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  .aboutMeIdeas{
+    display: none;
   }
 
   .hamburger{
@@ -491,7 +457,7 @@ li{
 
   .smallTitle{
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     letter-spacing: 3px;
     text-align: center;
@@ -506,6 +472,7 @@ li{
   .aboutHead{
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
     margin-bottom: 0px;
   }
   
@@ -514,15 +481,6 @@ li{
     padding-top: 25px;
   }
 
-  .skillDescription {
-    text-align: center;
-    font-size: 13px;
-    width: 33%;
-    padding: 2px;
-    border-radius: 5px;
-    flex-grow: 1; /* Add this property */
-    text-align: center;
-  }
 
   .contact{
     padding-top: 30px;
@@ -557,10 +515,15 @@ li{
     top:50px;
     gap: 0;
     flex-direction: column;
-    background-color: black;
+    background-color: 
+#0d151c;
     width: 100%;
     text-align: center;
     transition: 0.3s;
+  }
+
+  .skillsTitle{
+    display: none;
   }
 
   .navitem{
@@ -580,52 +543,6 @@ li{
     left: 0;
   }
 
-  .skills1by1{
-    display: flex;
-    font-size: 2rem;
-    font-weight: bold;
-    align-items: center;
-    width: 90%;
-    height: 50px;
-    justify-content: space-between;
-  }
-
-.skillList {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: auto;
-}
-
-.skilllistContainer{
-  height: 450px;
-  overflow-x: scroll;
-}
-
-.skillBox {
-  width: 94%;
-  height: 200px;
-  padding: 3px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: start;
-  background-color: #f2f2f2;
-  margin: 10px 5px;
-  flex-shrink: 0; 
-}
-
-.skillImage {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
-
-.skillTitle {
-  margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: bold;
-}
 
 .projectBox{
   font-size: 0.9rem;
@@ -646,6 +563,17 @@ li{
   padding: 0.25rem 0.5rem;
   font-size: 0.7rem;
 }
+
+.skillBox{
+  font-size: 0.7rem;
+}
+
+.skillsList{
+  margin-top: 10px;
+  display: flex;
+  gap:2px;
+}
+
 
 .projectInfo{
   width: 90%;
