@@ -422,6 +422,111 @@ li{
   }
 }
 
+@media(min-width: 1439px){
+  .aboumePar{
+    font-size: 1.6rem;
+  }
+
+  .aboutMeIdeas{
+    font-size: 1.6rem;
+  }
+
+  .smallTitle{
+    font-size: 2.5rem;
+  }
+
+  .skillBox{
+    font-size: 1.3rem;
+  }
+
+  .aboutHead{
+    font-size: 2.5rem;
+  }
+
+  .projectstop3{
+    font-size: 1.3rem;
+  }
+
+  .projectName{
+    font-size: 1.3rem;
+  }
+
+  .projectBrief{
+    font-size: 1.2rem;
+  }
+
+  .projectTech{
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width: 2559px){
+  .aboumePar{
+    font-size: 2.5rem;
+  }
+
+  .aboutMeIdeas{
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+
+  .smallTitle{
+    font-size: 3.5rem;
+  }
+
+  .skillBox{
+    font-size: 2.1rem;
+  }
+
+  .aboumePar{
+    margin-top: 4rem;
+  }
+
+  .aboutHead{
+    font-size: 3.5rem;
+  }
+
+  .projectstop3{
+    font-size: 2.3rem;
+  }
+
+  .projectName{
+    font-size: 2.1rem;
+  }
+
+  .projectBrief{
+    font-size: 2rem;
+  }
+
+  .projectTech{
+    font-size: 2rem;
+  }
+
+  .projectsbtn{
+    font-size: 1.2rem;
+  }
+
+  .projectImage{
+    max-height: 500px;
+  }
+
+  .landingHeader{
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 800px){
+  .aboumePar{
+    font-size: 1rem;
+  } 
+}
+
+@media(max-width:870px){
+  .aboutMeIdeas{
+    display: none;
+  } 
+}
+
 @media(max-width:767px){
   .landingPage{
     font-size: 20px;
