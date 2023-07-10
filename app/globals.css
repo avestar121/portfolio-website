@@ -82,6 +82,7 @@ html {
   padding: 5px;
   color: white;
   background-color: #0d151c;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -436,7 +437,7 @@ li{
   }
 
   .skillBox{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .aboutHead{
