@@ -58,7 +58,6 @@ html {
 }
 
 .skillsContainer {
-  background-color: white;
   height: 100vh;
   min-height: 43rem;
   padding: 60px;
@@ -74,7 +73,7 @@ html {
 
 .skillsTitle{
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px;
 }
 
@@ -258,7 +257,6 @@ html {
 .projects {
   min-height: 40rem;
   padding-top: 50px; 
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -375,6 +373,7 @@ li{
 .aboumePar{
   padding-bottom: 15px;
   font-size: 1.2rem;
+  background-color: white;
 }
 
 @media(min-width: 1800px){
@@ -425,7 +424,7 @@ li{
 
 @media(min-width: 1439px){
   .aboumePar{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .aboutMeIdeas{
@@ -433,7 +432,7 @@ li{
   }
 
   .smallTitle{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .skillBox{
@@ -441,7 +440,7 @@ li{
   }
 
   .aboutHead{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .projectstop3{
