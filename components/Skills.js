@@ -18,9 +18,10 @@ const Skills = () => {
       <li className='skillBox'>Redux</li>
       <li className='skillBox'>Tailwind</li>
       <li className='skillBox'>Express.js</li>
+      <li className='skillBox'>Next.js</li>
       <li className='skillBox'>Node.js</li>
       <li className='skillBox'>PostgreSQL</li>
-      <li className='skillBox'>SQL</li>
+      <li className='skillBox'>REST API</li>
       <li className='skillBox'>PHP</li>
       <li className='skillBox'>MongoDB</li>
       <li className='skillBox'>Sanity</li>

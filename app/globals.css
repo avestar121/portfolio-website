@@ -257,6 +257,7 @@ html {
 .projects {
   min-height: 40rem;
   padding-top: 50px; 
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
